@@ -87,8 +87,12 @@ header .navigation li a {
 
 
 main{
-    height: 140vh;
+    display: flex;
+    height: 150vh;
     background-color: #786b8c27;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
 }
 main .space{
     height: 2vh;
@@ -354,16 +358,18 @@ main {
 }
 }
 
-@media (max-width:  592px){
 
+
+@media (max-width:  592px){
 
 header .navigation.active {
     padding: 1em 2em;
 }
 
 main {
-    height: 300vh;
+    height: 250vh;
 }
+
 main .ambiente-titulo {
     margin: 2em 3em;
 }
@@ -395,3 +401,10 @@ main .ambiente-titulo {
     font-size: 10px;
 } 
 }
+
+@media (max-width: 592px){}
+main {
+    height: 290vh;
+}
+}
+
