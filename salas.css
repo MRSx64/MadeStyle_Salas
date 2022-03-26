@@ -359,7 +359,6 @@ main {
 }
 
 
-
 @media (max-width:  592px){
 
 header .navigation.active {
@@ -367,7 +366,7 @@ header .navigation.active {
 }
 
 main {
-    height: 250vh;
+    height: 290vh;
 }
 
 main .ambiente-titulo {
@@ -402,9 +401,4 @@ main .ambiente-titulo {
 } 
 }
 
-@media (max-width: 360px){
-main {
-    height: 290vh;
-}
-}
 
