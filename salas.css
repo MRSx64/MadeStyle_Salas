@@ -375,7 +375,7 @@ main .ambiente-titulo {
 }
 
 .lbox:target {
-    height: 87%;
+    height: 80%;
 }
 
 .lbox:target .boxImg img {
@@ -384,11 +384,11 @@ main .ambiente-titulo {
 }
 
 #prev {
-    top: 21%;
+    top: 16%;
     }
 
 #next {
-    top: 21%;
+    top: 16%;
     }
     
 
@@ -402,7 +402,7 @@ main .ambiente-titulo {
 } 
 }
 
-@media (max-width: 592px){}
+@media (max-width: 340px){
 main {
     height: 290vh;
 }
