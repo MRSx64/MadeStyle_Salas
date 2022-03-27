@@ -348,9 +348,7 @@ main .ambiente-titulo {
 .lbox {
     margin: 4em 2em;}
 
-.lbox:target {
-    top:-2em;
-    }
+
 
 .footer{
     padding: 10px;
