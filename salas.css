@@ -141,6 +141,9 @@ main .ambiente-titulo p{
 .lbox:target{
     display: flex;
     justify-content: center;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
     opacity: 1;
     visibility: visible;
     width: 100%;
@@ -149,6 +152,7 @@ main .ambiente-titulo p{
     left: 0;
     background: rgb(26 25 25);
     position: fixed;
+    
 }
 
 
@@ -186,7 +190,6 @@ main .ambiente-titulo p{
 }
 
 .lbox:target .boxImg img{
-        margin: 9em 18em;
         opacity: 1;
         transition: opacity .4s linear;
     }
@@ -249,13 +252,12 @@ main .ambiente-titulo h1 {
 
 
 .lbox:target {
-        width: 89%;
-        height: 94%;
+    width: 90%;
+    height: 90%;
 }
 
 
 .lbox:target .boxImg img {
-    margin: 10em;
     width: 36em;}
 
 }
@@ -347,7 +349,7 @@ main .ambiente-titulo {
     margin: 4em 2em;}
 
 .lbox:target {
-    top:3em;
+    top:-2em;
     }
 
 .footer{
@@ -363,7 +365,7 @@ main .ambiente-titulo {
 }
 
 .lbox:target .boxImg img {
-    margin: 14em;
+    margin: 6em;
     width: 22em;
 }
 }
