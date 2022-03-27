@@ -173,7 +173,7 @@ main .ambiente-titulo p{
 }
 #prev{
     left: 5%;
-    top: 45%;
+    top: 46%;
 }
 
 #next{
@@ -366,6 +366,10 @@ main .ambiente-titulo {
     margin: 6em;
     width: 22em;
 }
+
+#close {
+    top: 1.5em;
+    right: 2%;}
 }
 
 
@@ -390,15 +394,16 @@ main .ambiente-titulo {
     margin: 12em;
     width: 16em;
 }
+#prev{
+  
+    top: 75%;
+}
 
-#prev {
-    top: 16%;
-    }
+#next{
+  
+    top: 75%;
+}
 
-#next {
-    top: 16%;
-    }
-    
 
 .contFoot {
     padding: 28px;
