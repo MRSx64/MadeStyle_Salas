@@ -148,7 +148,7 @@ main .ambiente-titulo p{
     visibility: visible;
     width: 100%;
     height: 100%;
-    top: 0;
+    top: -1em;
     left: 0;
     background: rgb(26 25 25);
     position: fixed;
