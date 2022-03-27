@@ -87,28 +87,48 @@ header .navigation li a {
 
 
 main{
-    display: flex;
-    height: 150vh;
-    background-color: #786b8c27;
-    justify-content: center;
-    flex-wrap: wrap;
-    align-items: center;
-}
-main .space{
-    height: 2vh;
+   margin: 0 auto;
 }
 
-main .ambiente{
-    height: 100%;
-}
 
 main .ambiente-titulo {
+    display: flex;
     margin: 4em 6em;
+    align-items: flex-start;
+    flex-direction: column;
+
 }
 main .ambiente-titulo h1{
-    font-family: 'Quicksand';
-    font-size: 2.5em;
+    font-size: 2.2em;
     color: #786b8cad;
+}
+
+main .ambiente-titulo h2{
+    font-size: 2.5em;
+    font-weight: 300;
+}
+    
+
+main .ambiente-titulo span{
+    font-family: 'Tangerine';
+    font-size: 2em; 
+    color: #93b1e3;
+}
+main .ambiente-titulo p{
+    font-size: 1.3em;
+    font-weight: 500;
+}
+
+.flex{
+    display: flex;
+}
+.flex-box{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+    padding-bottom: 20px;
 }
 
 .lbox{
@@ -131,12 +151,6 @@ main .ambiente-titulo h1{
     position: fixed;
 }
 
-ul.flex{
-    list-style: none;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
 
 .min{
     width: 22em;
@@ -220,9 +234,7 @@ footer{
 
 @media (max-width: 1168px){
 
-main {
-    height: 122vh;
-}
+
 main .ambiente-titulo h1 {
     font-size: 2em;
 }
@@ -332,7 +344,7 @@ main .ambiente-titulo {
     margin: 2em 6em;
 }
 .lbox {
-    margin: 0em 2em;}
+    margin: 4em 2em;}
 
 .lbox:target {
     top:3em;
@@ -345,11 +357,9 @@ main .ambiente-titulo {
 }
 @media (max-width: 880px){
 
-main {
-    height: 140vh;
-}
+
 .min {
-    width: 15em;
+    width: 14em;
 }
 
 .lbox:target .boxImg img {
@@ -365,13 +375,12 @@ header .navigation.active {
     padding: 1em 2em;
 }
 
-main {
-    height: 290vh;
-}
 
 main .ambiente-titulo {
     margin: 2em 3em;
 }
+.lbox {
+    margin: 5em 1em;}
 
 .lbox:target {
     height: 80%;
