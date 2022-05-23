@@ -132,16 +132,19 @@ main .ambiente-titulo p{
 }
 
 .flex-box img{
-    transition: 0.5s;
-    box-shadow: 0 5px 5px  rgba(0, 0, 0, 0.24);
+    margin: 5px;
+    transition: 0.8s;
+    box-shadow: 0 5px 5px  rgba(0, 0, 0, 0.404);
     border-radius: 5px;
     padding: 10px;
-    border-color: rgba(136, 133, 133, 0.459);
+    border-color: rgb(202, 198, 198);
 }
 .flex-box img:hover{
-    transform: translateY(-5px);
+    transform: translateY(-8px);
+    background-color: #786b8c88;
     
     }
+
 
 .lbox{
     top: 0;
