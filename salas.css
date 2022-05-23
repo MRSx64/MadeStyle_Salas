@@ -131,6 +131,18 @@ main .ambiente-titulo p{
     padding-bottom: 20px;
 }
 
+.flex-box img{
+    transition: 0.5s;
+    box-shadow: 0 5px 5px  rgba(0, 0, 0, 0.24);
+    border-radius: 5px;
+    padding: 10px;
+    border-color: rgba(136, 133, 133, 0.459);
+}
+.flex-box img:hover{
+    transform: translateY(-5px);
+    
+    }
+
 .lbox{
     top: 0;
     visibility: hidden;
